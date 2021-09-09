@@ -1,0 +1,76 @@
+.whole {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: 100px;
+  flex-wrap: wrap;
+  background: rgb(253, 183, 59);
+}
+.box12 {
+  position: relative;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffd900;
+  border: 1px solid black;
+  margin: 40px;
+}
+.linkwala {
+  text-decoration: none;
+}
+.login_name {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+  color: black;
+}
+
+.register {
+  border: 1px solid white;
+  color: black;
+  height: 400px;
+  width: 20%;
+  margin-left: 25%;
+  float: right;
+}
+.spanning {
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+  display: inline-block;
+}
+.spanning:hover {
+  border-bottom: 1px solid black;
+}
+.form12 {
+  display: inline-block;
+  padding: 20px;
+}
+
+.form12 input {
+  margin-bottom: 35px;
+  padding: 5px;
+  width: 100%;
+}
+.form12 button {
+  display: block;
+  padding: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: bolder;
+}
+.form12 button:hover {
+  background-color: rgb(255, 238, 0);
+  transition: 0.5s;
+}
+.box12 .content12 {
+  padding: 20px;
+  color: black;
+}
